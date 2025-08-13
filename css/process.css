@@ -1,0 +1,56 @@
+.process_wrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.process_block {
+    text-align: center;
+    width: 540px;
+    margin-top: 100px;
+    margin-bottom: 57px;
+}
+
+.process_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.process_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26x;
+    text-align: center;
+    color: #727272;
+}
+
+.process_video {
+    width: 700px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+
+
+}
+
+.video_block {
+    display: flex;
+}
+@media (max-width: 556px) {
+    .process_block {
+        width: 100%;
+        
+    }
+    .process_video {
+        width: 300px;
+        padding: 0;
+    }
+}

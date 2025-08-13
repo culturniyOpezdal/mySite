@@ -1,0 +1,23 @@
+.projects_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    background: #355479;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.project_img {
+    width: 141px;
+    height: 50px;
+}
+@media (max-width: 556px) {
+    .projects_block {
+        text-align: center;
+    }
+    .project_img {
+        margin-bottom: 10px;
+    }
+}

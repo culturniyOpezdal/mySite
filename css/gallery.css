@@ -1,0 +1,14 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+.gallery_str {
+    display: flex;
+    width: 100%;
+}
+.gallery_image {
+    width: 100%;
+}
+.lightzoom {
+    width: 25%;
+}

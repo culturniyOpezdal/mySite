@@ -1,0 +1,48 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    display: none;
+}
+.modal_content {
+    padding: 20px;
+    margin: 7% auto;
+    background-color: #EEEFF1;
+    width: 70%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.15s;
+
+}
+.close {
+    font-family: Revalia;
+    font-size: 48px;
+    color: #34547A;
+    float: right;
+}
+.modal_title {
+    margin: 40px 0;
+}
+.modal_button {
+    margin-bottom: 40px;
+}
+.close {
+    cursor: pointer;
+}
+@media (max-width: 556px) {
+    .modal_content {
+        width: 100%;
+        height: 100vh;
+        margin: unset;
+    }
+    .close {
+        float: unset;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+}

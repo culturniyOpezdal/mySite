@@ -1,0 +1,51 @@
+.about {
+    background: white;
+}
+
+
+
+.about_wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about_block {
+    width: 540px;
+    text-align: center;
+}
+
+.about_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.about_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26x;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 100px;
+}
+@media (max-width: 556px) {
+    .about {
+        width: 100%;
+        
+    }
+    .about_block p {
+        max-width: 100%;
+      width: 350px;
+        
+    }
+    .about_block {
+        width: 250px;
+    }
+}
